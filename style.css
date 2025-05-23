@@ -118,6 +118,15 @@ body {
   height: 3px;
 }
 
+#tablet{
+  display: none;
+}
+
+#close{
+  display: none;
+}
+
+
 
 /******************** Home Page *********************/
 
@@ -549,15 +558,120 @@ margin-top:10px ;
   margin: -20px 0 80px 0;
 }
 
+/********** Shop Page **********/ 
+
+/********** Blog Page **********
+
+/********** About Page **********
+
+/********** Contact Page **********/
 
 
+/*********** Media query ***********/
 
 
+@media(max-width:799px){
 
 
+  .section-p1 {
+    padding: 20px 40px;
+}
 
+  #navbar{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    top:0px;
+    right:-300px;
+    align-items:flex-start ;
+    justify-content: flex-start;
+    background-color: #fff;
+    padding: 40px 30px;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+    transition: 0.5s ease;
+}
 
+#navbar.active{
+  right:0px;
+}
 
+ #navbar li {
+    margin: 15px ; 
+}
+
+.lg-cart{
+  display: none;
+}
+
+#tablet{
+  display: initial;
+}
+
+#tablet i{
+  margin-right: 15px;
+  color:#1a1a1a;
+  font-size: 20px;
+}
+
+#close{
+position: absolute;
+top: 10px;
+left: 10px;
+font-size: 25px;
+display: initial;
+padding: 15px  10px ;
+color: #1a1a1a;
+}
+
+#hero {
+    height: 70vh;
+    padding: 0px 80px;
+}
+
+#feature {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+#feature .fe-box {
+  margin: 10px 15px 15px 10px ;
+}
+
+#product .fe-pro {
+    justify-content: center;
+}
+
+#product .fe-pro .pro {
+    width: 250px;
+    margin: 15px;
+}
+
+#banner {
+    height: 20vh;
+    padding: 10px 0;
+}
+
+#sm-banner .banner {
+    width: 100%;
+    padding: 15px 20px;
+    height: 30vh;
+    margin-bottom: 25px;
+}
+
+#text-banner .banner{
+    width: 28%;
+}
+
+.footer-bottom {
+    margin: 30px 0 80px 0;
+}
+
+}
 
 
 
