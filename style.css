@@ -569,6 +569,7 @@ margin-top:10px ;
 
 /*********** Media query ***********/
 
+/* tablet size device */
 
 @media(max-width:799px){
 
@@ -670,6 +671,120 @@ color: #1a1a1a;
 .footer-bottom {
     margin: 30px 0 80px 0;
 }
+
+}
+
+/******************** mobile size device ***********/
+
+@media(max-width:499px){
+
+.section-p1 {
+    padding: 20px ;
+}
+
+h1 {
+    font-size: 38px;
+    line-height: 50px;
+}
+
+#header {
+    padding: 20px ;
+}
+
+#navbar {
+  /* width: 430px; 
+  background-color: red; */
+}
+
+/****  hero section ****/
+
+#hero {
+    height: 45vh;
+    padding: 0px 20px;
+    background-position: 55%;
+}
+ 
+#hero h1 {
+    font-size: 32px;
+}
+
+#hero h2 {
+    font-size: 36px;
+    line-height: 45px;
+}
+
+#hero button {
+    margin-top: 10px;   
+}
+
+#hero p {
+    font-size: 16px;
+    padding:   15px;
+}
+
+/***** feature section ******/
+
+#feature {
+    justify-content: space-between;
+    
+}
+
+#feature .fe-box {
+    width: 155px;
+    margin:0px 0px 30px 0px;
+}
+
+#feature .fe-box h6 {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+/**** Feature Products ****/
+
+#product .fe-pro .pro{
+  width: 75%;
+}
+
+#product .pro h6 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#product .pro >span {
+    font-size: 22px;
+}
+
+#product .price span {
+    font-size: 26px;
+}
+
+#product  .pro .stars {
+    padding: 23px 0;
+     font-size: 26px;
+}
+
+.price i {
+    font-size: 26px;
+}
+
+/********* Banner **********/
+
+#banner {
+  height: 26vh;
+  background-position: center;
+}
+
+#banner h2 {
+    font-size: 30px;
+    line-height: 45px;
+}
+
+button.normal {
+    margin-top: 10px;
+}
+
+
+
 
 }
 
