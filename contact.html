@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecommerce Website</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <section id="header">
+      <a href="#"><img src="img/logo.png" class="logo" alt="logo" /></a>
+
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a class="active" href="contact.html">contact</a></li>
+          <li>
+            <a class="lg-cart" href="cart.html"
+              ><i class="fa-solid fa-bag-shopping" color="green"></i
+            ></a>
+          </li>
+          <a id="close" href="#"><i class="fa-solid fa-xmark"></i></a>
+        </ul>
+      </div>
+
+      <div id="tablet">
+        <a href="cart.html"
+          ><i class="fa-solid fa-bag-shopping" color="green"></i
+        ></a>
+        <i id="bar" class="fa-solid fa-outdent"></i>
+      </div>
+    </section>
+
+    <section id="page-header" class="about-header">
+      <h2>#Let's_talk</h2>
+      <p>LEAVE A MESSAGE, We love to hear from you!</p>
+    </section>
+
+    <section id="contact-details" class="section-p1">
+      <div class="details">
+        <span>GET IN TOUCH</span>
+        <h2>Visit one of our agency locations or contact us today</h2>
+        <h3>Head Office</h3>
+
+        <ul>
+          <li>
+            <i class="fa-regular fa-map"></i>
+            <p>56 Glassford Street Glassgow G1 1UL New York</p>
+          </li>
+
+          <li>
+            <i class="fa-regular fa-envelope"></i>
+            <p>contact@example.com</p>
+          </li>
+          <li>
+            <i class="fa-solid fa-phone"></i>
+            <p>contact@example.com</p>
+          </li>
+          <li>
+            <i class="fa-regular fa-clock"></i>
+            <p>Monday to Saturday: 9:00am to 16:00pm</p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2469.6870348425105!2d-1.2570928240947716!3d51.757046192436185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876c6a9ef8c485b%3A0xd2ff1883a001afed!2sUniversity%20of%20Oxford!5e0!3m2!1sen!2sin!4v1749049758747!5m2!1sen!2sin"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+
+    <section id="newsletter" class="section-m1">
+      <div class="news">
+        <h4>Sign Up For Newsletters</h4>
+        <p>
+          Get E-mail updates about our latest shop and
+          <span>special offers.</span>
+        </p>
+      </div>
+
+      <div class="mail">
+        <input class="type-box" type="email" placeholder="Your email address" />
+        <button>Sign Up</button>
+      </div>
+    </section>
+
+    <footer id="footer" class="section-p1">
+      <div class="col">
+        <a href="#"><img src="img/logo.png" class="logo" alt="logo" /></a>
+        <strong>Contact</strong>
+        <p>
+          <span>Address: </span>562 Wellington Road, Street 32, san Francisco
+        </p>
+        <p><span>Phone: </span>+01 2222 365 /(+91) 01 2345 6789</p>
+        <p><span>Hours: </span>10:00 - 18:00 Mon-Sat</p>
+        <strong>Follow Us </strong>
+        <div class="icons">
+          <a href="#"
+            ><i class="fa-brands fa-twitter" style="color: #4c4e4d"></i
+          ></a>
+          <a href="#"
+            ><i class="fa-brands fa-facebook" style="color: #4c4e4d"></i
+          ></a>
+          <a href="#"
+            ><i class="fa-brands fa-instagram" style="color: #4c4e4d"></i
+          ></a>
+          <a href="#"
+            ><i class="fa-brands fa-pinterest" style="color: #4c4e4d"></i
+          ></a>
+          <a href="#"
+            ><i class="fa-brands fa-youtube" style="color: #4c4e4d"></i
+          ></a>
+        </div>
+      </div>
+
+      <div class="col col2" id="about">
+        <strong>About</strong>
+        <span><a href="#">About Us </a></span>
+        <span><a href="#"> Delivery Information </a></span>
+        <span><a href="#"> Privacy Policy </a></span>
+        <span><a href="#">Terms & Conditions </a></span>
+        <span><a href="#">Contact Us </a></span>
+      </div>
+
+      <div class="col col3" id="account">
+        <strong>My Account</strong>
+        <span><a href="#">Sign In </a></span>
+        <span><a href="#">View Cart</a></span>
+        <span><a href="#">My Wishlist</a></span>
+        <span><a href="#">Track My Order</a></span>
+        <span><a href="#">Help </a></span>
+      </div>
+
+      <div class="col col4" id="app">
+        <strong>Install App</strong>
+        <span>From App Store or Google Play </span>
+        <img class="store" src="img/pay/app.jpg" alt="apple store" />
+        <img class="store" src="img/pay/play.jpg" alt="play store" />
+        <span>Secured Payment Gateways</span>
+        <img class="pay" src="img/pay/pay.png" alt="Payment" />
+      </div>
+      <p class="footer-bottom">
+        &copy; 2025. shanmugavel - HTML CSS Ecommerce Template
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
