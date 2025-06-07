@@ -891,7 +891,7 @@ button.normal {
   padding: 4px 0 8px 0;
 }
 
-/********************* Cart Page **********/
+/********************* Cart Page **********************/
 
 table {
   border-collapse: collapse;
@@ -1000,7 +1000,6 @@ table {
   border: 1px solid #e2e9e1;
   padding: 10px;
   font-size: 14px;
-
 }
 
 /*********** Media query ***********/
@@ -1139,6 +1138,24 @@ table {
   #contact-details .map {
     width: 100%;
   }
+
+/* cart-page */
+#cart table td:nth-child(1) {
+    width: 70px;
+}
+
+#cart table td:nth-child(3) {
+    width: 150px;
+}
+
+#cart table td:nth-child(4) {
+    width: 120px;
+}
+
+#cart table td:nth-child(6) {
+    width: 70px;
+}
+
 }
 
 /******************** mobile size device ***********/
@@ -1327,4 +1344,29 @@ table {
   #contact-details .map {
     height: 300px;
   }
+
+/* cart page */
+
+#cart{
+  overflow-x: auto;
+}
+
+#cart-total {
+    display: flex;
+    flex-direction: column;
+}
+
+.coupon {
+    width: 100%;
+}
+
+.subtotal {
+    width: 100%;
+    margin-top: 30px
+}
+.subtotal button {
+    width: 60%;
+    padding:12px;
+}
+
 }
