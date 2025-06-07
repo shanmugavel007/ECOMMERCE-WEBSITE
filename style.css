@@ -1169,11 +1169,11 @@ table {
     padding: 20px 40px;
   }
 
-  #hero {
-    height: 45vh;
+#hero {
+    height: 40vh;
     padding: 0px 25px;
-    background-position: 55%;
-  }
+    background-position: 30% center;
+}
 
   h2 {
     font-size: 32px;
@@ -1222,7 +1222,7 @@ table {
 
   #text-banner .banner {
     width: 90%;
-    margin: 20px 30px;
+    margin: 20px;
     display: flex;
     justify-content: flex-end;
   }
@@ -1243,7 +1243,11 @@ table {
     width: 300px;
   }
 
-  .footer-bottom {
+  #footer {
+    padding: 0px 40px;
+}
+
+ .copyrights{
     text-align: start;
     line-height: 28px;
   }
